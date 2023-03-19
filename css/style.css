@@ -1,0 +1,94 @@
+/* fonts */
+@font-face {
+  font-family: 'Stencil';
+  src: url('../fonts/Stencil.woff2') format('woff2'),
+      url('../fonts/Stencil.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* base */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  outline: none!important;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-size: 16px;
+  line-height: 1;
+  font-family: 'Stencil';
+}
+
+p {
+  margin: 0;
+}
+
+address {
+  font-style: normal;
+}
+
+button {
+  cursor: pointer;
+  background: none;
+  padding: 0;
+  border: none;
+  color: currentColor;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: bottom;
+}
+
+label {
+  cursor: pointer;
+  user-select: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+input[placeholder] {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+:focus::-moz-placeholder {
+  color: transparent;
+}
+
+:focus:-moz-placeholder {
+  color: transparent;
+}
+
+:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+.container {
+  width: 1217px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
