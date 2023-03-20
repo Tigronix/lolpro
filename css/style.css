@@ -102,5 +102,6 @@ input[placeholder] {
 }
 .menu {
   font-family: 'YuGothic-Bold';
-  font-style: italic;
+  font-weight: 500;
+  font-size: 20px;
 }
