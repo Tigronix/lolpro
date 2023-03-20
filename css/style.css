@@ -100,3 +100,7 @@ input[placeholder] {
   margin: 0 auto;
   padding: 0 32px;
 }
+.menu {
+  font-family: 'YuGothic-Bold';
+  font-style: italic;
+}
