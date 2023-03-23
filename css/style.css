@@ -100,8 +100,20 @@ input[placeholder] {
   margin: 0 auto;
   padding: 0 32px;
 }
+
 .menu {
-  font-family: 'YuGothic-Bold';
+  font-family: 'Yu Gothic';
   font-weight: 500;
   font-size: 20px;
+}
+
+.abcd {
+  width: 1281;
+  height: 89;
+  font-family: Stencil;
+  background: cyan no-repeat center url("img/Rectangle.png");
+}
+
+.home {
+  color: #007D8B;
 }
