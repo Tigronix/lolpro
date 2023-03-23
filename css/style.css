@@ -111,9 +111,9 @@ input[placeholder] {
   width: 1281;
   height: 89;
   font-family: Stencil;
-  background: cyan no-repeat center url("img/Rectangle.png");
+  background: url(hat.png);
 }
 
-.home {
+.transparent {
   color: #007D8B;
 }
