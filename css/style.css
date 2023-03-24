@@ -30,7 +30,7 @@ html,
 body {
   font-size: 16px;
   line-height: 1;
-  font-family: 'YuGothic-Bold';
+  font-family: 'YuGothic';
 }
 
 p {
@@ -97,23 +97,69 @@ input[placeholder] {
 
 .container {
   width: 1217px;
+  height: 100%;
   margin: 0 auto;
   padding: 0 32px;
 }
 
 .menu {
-  font-family: 'Yu Gothic';
   font-weight: 500;
   font-size: 20px;
 }
 
-.abcd {
-  width: 1281;
-  height: 89;
-  font-family: Stencil;
-  background: url(hat.png);
+.header {
+  height: 89px;
+  background: url(../img/hat.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-.transparent {
+.header__content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  display: block;
+  width: 148px;
+  height: 18px;
+  margin-right: 130px;
+  overflow: hidden;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -38px;
+}
+
+.menu__li {
+  padding: 0 38px;
+}
+
+.menu__link {
+font-weight: 700;
+font-size: 20px;
+line-height: 32px;
+color: #121212;
+text-decoration: none;
+transition: color 0.3s;
+}
+
+.menu__link.active {
   color: #007D8B;
+}
+
+.menu__link:hover {
+  color: #007D8B;
+}
+
+.header__search {
+  display: block;
+  width: 23px;
+  height: 23px;
+  overflow: hidden;
+  margin-left: auto;
 }
