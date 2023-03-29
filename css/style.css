@@ -20,7 +20,7 @@
 @font-face {
   font-family: 'Yu Gothic';
   src: url('../YuGothic.woff2') format('woff2'),
-      url('../YuGothic.woff') format('woff');
+    url('../YuGothic.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -221,53 +221,59 @@ input[placeholder] {
 }
 
 .mainpage {
-  height: 992px;
+  min-height: 992px;
   background: url(../img/Component1.png);
   background-repeat: no-repeat;
-  background-position: right;
-  top: 0;
-  right: 0;
-  background-size: 950px;
+  background-position: right top;
+  background-size: 816px 951px;
+  padding-top: 223px;
 }
 
 .mainpage__text {
   width: 451px;
-  height: 230px;
-  margin-top: 223px;
 }
 
 .mainpage__text-shoes {
   font-family: Stencil;
   font-weight: 400;
   font-size: 64px;
+  margin-bottom: 16px;
 }
 
 .mainpage__text-collection {
   font-weight: 700;
   font-size: 40px;
-  line-height: 64px;
+  margin-bottom: 20px;
 }
 
 .mainpage__text-description {
   font-weight: 700;
   font-size: 20px;
   line-height: 32px;
+  width: 354px;
   color: #B3B3B3;
 }
 
-.mainpage__shop__link {
+.mainpage__shop-link {
+  background: #007D8B;
+  border-radius: 30px;
   display: flex;
-  background-image: url(../img/RectangleMainpage.png);
-  width: 194px;
-  height: 58px;
-  overflow: hidden;
   margin-top: 80px;
   font-size: 24px;
-  line-height: 38px;
   color: white;
   padding: 15px;
   align-items: center;
-  justify-content: space-between;
-  flex-direction: row-reverse;
 }
 
+.mainpage__shop-pointer {
+  width: 28px;
+  height: 23px;
+}
+
+.mainpage__shop-link-text {
+  margin-right: 16px;
+}
+
+.mainpage__text-collection--accent {
+  color: #007D8B;
+}
