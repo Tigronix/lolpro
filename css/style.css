@@ -106,10 +106,17 @@ input[placeholder] {
 }
 
 .container {
+  width: 1217px;
   max-width: 1217px;
   height: 100%;
   margin: 0 auto;
   padding: 0 32px;
+}
+
+@media screen and (max-width: 1220px) {
+  .container {
+    width: 100%;
+  }
 }
 
 .menu {
