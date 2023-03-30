@@ -277,3 +277,64 @@ input[placeholder] {
 .mainpage__text--accent {
   color: #007D8B;
 }
+
+.sale {
+  display: flex;
+  position: relative;
+  min-height: 832px;
+  background: #006C79
+}
+
+.sale__picture {
+  position: relative;
+  min-height: 832px;
+  /* поменять на сайз */
+  background-image: url(../img/Shoes1.png);
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.sale__picture-text-under-picture {
+  position: relative;
+  padding-top: 149.34px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Stencil;
+  font-weight: 400;
+  font-size: 129.792px;
+  opacity: 0.3;
+  text-align: center;
+  z-index: 2;
+}
+
+.sale__picture-text-line-one {
+  margin-bottom: 61px;
+  text-indent: -646px;
+}
+
+.sale__picture-text-line-two-three {
+  margin-bottom: 61px;
+  text-indent: -100px;
+}
+
+.sale__picture-text-line-four {}
+
+/* .sale__shop-pointer {
+  width: 28px;
+  height: 23px;
+}
+
+.sale__shop-link {
+  background: #86868999;
+  border-radius: 30px;
+  display: flex;
+  font-size: 24px;
+  color: white;
+  padding: 15px;
+  align-items: center;
+}
+
+.sale__shop-link-text {
+  margin-right: 16px;
+} */
