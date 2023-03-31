@@ -358,7 +358,7 @@ input[placeholder] {
   font-weight: 400;
   text-decoration: none;
   color: #000000;
-  transition: background-color 0.2s;
+  transition: background-color 0.4s;
 }
 
 .popular__link:hover {
