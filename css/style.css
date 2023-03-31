@@ -270,6 +270,11 @@ input[placeholder] {
   color: white;
   padding: 15px;
   align-items: center;
+  transition: background-color 0.5s;
+}
+
+.mainpage__shop-link:hover{
+  background-color: #25254ee8;
 }
 
 .mainpage__shop-pointer {
@@ -311,6 +316,11 @@ input[placeholder] {
   color: white;
   padding: 15px;
   align-items: center;
+  transition: background-color 0.5s;
+}
+
+.sale__shop-link:hover{
+  background-color: #25254ee8;
 }
 
 .sale__shop-link-text {
@@ -348,6 +358,13 @@ input[placeholder] {
   font-weight: 400;
   text-decoration: none;
   color: #000000;
+  transition: background-color 0.2s;
+}
+
+.popular__link:hover {
+  background-color: rgb(172, 211, 232);
+  border-radius: 20px;
+  padding: 5px;
 }
 
 .popular__text-above-pictures {
@@ -359,34 +376,72 @@ input[placeholder] {
 
 .popular__new-collection {
   height: 100%;
-  margin-top: 287px;
+  margin-top: 68px;
 }
 
 .popular__new-menu {
   display: flex;
 }
 
-.popular__new-link {
+.popular__new-li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: Stencil;
+  font-weight: 400;
+  font-size: 36px;
+  text-decoration: none;
+  position: relative;
+}
+
+.popular__new-text-on-picture {
+  position: absolute;
+  top: 44%;
+  width: 216px;
+  text-decoration: none;
+  color: white;
+  transition: text-shadow 0.3s;
+}
+
+.popular__new-text-on-picture:hover {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.popular__new-li--margin {
+  margin-right: 25px;
+}
+
+.popular__new-text-on-picture--width {
+  width: 241px;
+}
+
+.popular__new-picture {
+ /* width: 577px;
+ height: 517px; */
+ size: 100% auto;
+}
+
+/* .popular__new-link {
+  height: 100%;
+  justify-content: center;
+  align-items: center;
   display: flex;
   font-family: Stencil;
   font-weight: 400;
   font-size: 36px;
   text-decoration: none;
   text-align: center;
-  width: 216px;
-  color: black;
+  color: white;
 }
 
 .popular__new-link--width {
-  width: 241px;
 }
 
-.popular__new-block1 {
+.popular__new-li {
   height: 517px;
   width: 577px;
 }
 
-.popular__new-block2 {
-  height: 517px;
-  width: 577px;
-}
+
+216px  241px  */
