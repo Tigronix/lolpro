@@ -398,14 +398,14 @@ input[placeholder] {
 .popular__new-text-on-picture {
   position: absolute;
   top: 44%;
-  width: 216px;
+  width: 240px;
   text-decoration: none;
   color: white;
-  transition: text-shadow 0.3s;
+  transition: font-size 0.5s;
 }
 
 .popular__new-text-on-picture:hover {
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+ font-size: 38px;
 }
 
 .popular__new-li--margin {
@@ -413,7 +413,7 @@ input[placeholder] {
 }
 
 .popular__new-text-on-picture--width {
-  width: 241px;
+  width: 260px;
 }
 
 .popular__new-picture {
