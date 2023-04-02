@@ -47,7 +47,7 @@
         <p class="mainpage__text-description">Find your true style with shoexpress and explore the variety of playful,
           colourful designs!</p>
       </div>
-      <button class="mainpage__shop-link">
+      <button class="button">
         <span class="mainpage__shop-link-text">Shop Now</span>
         <img src="img/Pointer.png" alt="Pointer" class="mainpage__shop-pointer">
       </button>
@@ -56,12 +56,13 @@
   <section class="sale">
     <div class="container">
       <div class="sale__picture" style="background-image: url(img/Block2.png);">
+        <div class="sale__shop-button">
+          <button class="button button--light-grey">
+            <span class="sale__shop-link-text">Shop Now</span>
+            <img src="img/Pointer.png" alt="Pointer" class="sale__shop-pointer">
+          </button>
+        </div>
       </div>
-      <button class="sale__shop-link">
-        <span class="sale__shop-link-text">Shop Now</span>
-        <img src="img/Pointer.png" alt="Pointer" class="sale__shop-pointer">
-      </button>
-    </div>
   </section>
   <section class="popular">
     <div class="container">
@@ -70,42 +71,69 @@
         </span>
       </div>
       <div class="popular__categories">
-        <ul class="popular__categories-menu">
-          <li class="popular__categories-li">
-            <a href="#" class="popular__link">Sneakers</a>
-          </li>
-          <li class="popular__categories-li">
-            <a href="#" class="popular__link">Sports Shoes</a>
-          </li>
-          <li class="popular__categories-li">
-            <a href="#" class="popular__link">Oxford</a>
-          </li>
-          <li class="popular__categories-li">
-            <a href="#" class="popular__link">Sale</a>
-          </li>
-        </ul>
+        <div class="popular__categories-menu--margin">
+          <ul class="popular__categories-menu">
+            <li class="popular__categories-li">
+              <a href="#" class="popular__link">Sneakers</a>
+            </li>
+            <li class="popular__categories-li">
+              <a href="#" class="popular__link">Sports Shoes</a>
+            </li>
+            <li class="popular__categories-li">
+              <a href="#" class="popular__link">Oxford</a>
+            </li>
+            <li class="popular__categories-li">
+              <a href="#" class="popular__link">Sale</a>
+            </li>
+          </ul>
+        </div>
         <div class="popular__text-above-pictures">
           <span>New Arrival</span>
         </div>
         <div class="popular__new-collection">
           <ul class="popular__new-menu">
-            <li class="popular__new-li popular__new-li--margin">
-              <img src="img/PopularShoes1.png" alt="" class="popular__new-picture popular__new-picture-block1">
-              <a href="#" class="popular__new-text-on-picture">Nike Shoes Zoom-X</a>
+            <li class="popular__new-li">
+              <a href="#" class="popular__new-link" style="background-image: url(img/PopularShoes1.png);">
+                <span class="popular__new-text-on-picture">nike shoes zoom-x</span>
+              </a>
             </li>
             <li class="popular__new-li">
-              <img src="img/PopularShoes2.png" alt="" class="popular__new-picture popular__new-picture-block2">
-              <a href="#" class="popular__new-text-on-picture popular__new-text-on-picture--width">Nike WMNs
-                Roshe racer</a>
+              <a href="#" class="popular__new-link" style="background-image: url(img/PopularShoes2.png);">
+                <span class="popular__new-text-on-picture">nike wmns roshe racer</span>
+              </a>
             </li>
-            <!-- <li class="popular__new-li popular__new-block1" style="background-image: url(img/PopularShoes1.png);">
-              <a href="#" class="popular__new-link">Nike shoes zoom-x</a>
-            </li>
-            <li class="popular__new-li popular__new-block2" style="background-image: url(img/PopularShoes2.png);">
-              <a href="#" class="popular__new-link popular__new-link--width">Nike wmns roshe racer</a>
-            </li> -->
           </ul>
         </div>
+      </div>
+    </div>
+  </section>
+  <section class="weekly">
+    <div class="container">
+      <div class="weekly__headline">
+        <span class="">our weekly pick</span>
+      </div>
+      <div class="weekly__picture-and-description">
+        <a href="#" class="weekly__picture-link" style="background-image: url(img/WeeklyShoes.png);">
+          <span class="weekly__picture-text">nike the joyride</span>
+        </a>
+        <div class="weekly__description">
+          <span class="weekly__description-text">Nike - The Joyride</span>
+          <span class="weekly__description-price">$390</span>
+          <ul class="weekly__description-info">
+            <li class="weekly__description-info-li">
+              <span class="weekly__description-info-text">Colour</span>
+            </li>
+            <li class="weekly__description-info-li">
+              <span class="weekly__description-info-text">Size</span>
+            </li>
+            <li class="weekly__description-info-li weekly__description-info-li--pading">
+              <span class="weekly__description-info-text">Reviews</span>
+            </li>
+          </ul>
+        </div>
+        <!-- <button class="button1">
+          <span class="weekly__description-info-link">Buy It Now!</span>
+        </button> -->
       </div>
     </div>
   </section>
