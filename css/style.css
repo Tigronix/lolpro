@@ -9,7 +9,7 @@
 }
 
 @font-face {
-  font-family: 'Yu Gothic';
+  font-family: 'YuGothic';
   src: url('../fonts/YuGothic-Bold.woff2') format('woff2'),
     url('../fonts/YuGothic-Bold.woff') format('woff');
   font-weight: bold;
@@ -18,7 +18,7 @@
 }
 
 @font-face {
-  font-family: 'Yu Gothic';
+  font-family: 'YuGothic';
   src: url('../fonts/YuGothic.woff2') url('../fonts/YuGothic.woff') format('woff');
   font-weight: normal;
   font-style: normal;
@@ -39,7 +39,7 @@ html,
 body {
   font-size: 16px;
   line-height: 1;
-  font-family: 'Yu Gothic';
+  font-family: 'YuGothic';
 }
 
 p {
@@ -243,20 +243,20 @@ a {
   width: 451px;
 }
 
-.mainpage__text-shoes {
+.mainpage__header {
   font-family: Stencil;
   font-weight: 400;
   font-size: 64px;
   margin-bottom: 16px;
 }
 
-.mainpage__text-collection {
+.mainpage__title {
   font-weight: 700;
   font-size: 40px;
   margin-bottom: 20px;
 }
 
-.mainpage__text-description {
+.mainpage__description {
   font-weight: 700;
   font-size: 20px;
   line-height: 32px;
@@ -267,6 +267,7 @@ a {
 
 .button {
   background: #007D8B;
+  justify-content: center;
   border-radius: 30px;
   display: flex;
   font-size: 24px;
@@ -304,6 +305,8 @@ a {
   background-size: 972px auto;
   background-repeat: no-repeat;
   background-position: center;
+  display: block;
+  text-decoration: none;
 }
 
 .sale__shop-pointer {
@@ -347,7 +350,7 @@ a {
   font-size: 48px;
 }
 
-.popular__categories {
+.popular {
   margin-bottom: 136px;
 }
 
@@ -381,11 +384,11 @@ a {
   color: #007D8B;
 }
 
-.popular__categories-menu--margin {
+.popular__categories {
   margin-bottom: 67px;
 }
 
-.popular__text-above-pictures {
+.popular__title {
   font-weight: 700;
   font-size: 36px;
   color: #121212;
@@ -398,27 +401,27 @@ a {
   margin: 0 -12.5px;
 }
 
-.popular__new-link {
+.product-card {
   justify-content: center;
   align-items: center;
   display: flex;
-  font-family: Stencil;
-  font-weight: 400;
-  font-size: 36px;
-  text-decoration: none;
-  text-align: center;
-  color: white;
   background-size: cover;
+  text-decoration: none;
   width: 577px;
   height: 516px;
 }
 
-.popular__new-text-on-picture {
+.product-card-text {
+  font-family: Stencil;
+  font-weight: 400;
+  font-size: 36px;
+  text-align: center;
+  color: white;
   width: 270px;
   transition: font-size 0.4s;
 }
 
-.popular__new-text-on-picture:hover {
+.product-card:hover .product-card-text {
   font-size: 39px;
 }
 
@@ -440,26 +443,7 @@ a {
 
 .weekly__picture-and-description {
   display: flex;
-}
-
-.weekly__picture-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: Stencil;
-  font-weight: 400;
-  font-size: 36px;
-  text-decoration: none;
-  text-align: center;
-  color: white;
-  background-size: cover;
-  width: 577px;
-  height: 516px;
-}
-
-.weekly__picture-text {
-  width: 259px;
-  transition: font-size 0.4s;
+  flex-wrap: wrap;
 }
 
 .weekly__picture-text:hover {
@@ -469,43 +453,100 @@ a {
 .weekly__description {
   display: flex;
   flex-direction: column;
+  padding-left: 46px;
+  flex: 1;
 }
 
 .weekly__description-text {
-  padding: 0 46px;
   font-size: 36px;
   font-weight: 700;
 }
 
 .weekly__description-price {
-  padding: 46px;
   color: #007D8B;
   font-size: 36px;
-  font-weight: 700; 
+  font-weight: 700;
+  margin: 46px 0;
 }
 
 .weekly__description-info {
-display: flex;
-flex-wrap: wrap;
-margin: 0 8px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 26px;
 }
 
-.weekly__description-info-li {
-padding: 0 39.5px;
-}
+.weekly__description-info-li {}
 
 .weekly__description-info-text {
-font-weight: 700;
-font-size: 28px;
+  font-weight: 700;
+  font-size: 28px;
 }
 
-/* .button1 {
-  background: #007D8B;
-  border-radius: 30px;
-  display: flex;
+.weekly__btn {
   font-size: 15px;
+  width: 296px;
+}
+
+.weekly__color-svg {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -6px;
+}
+
+.weekly__color-li {
+  padding: 0 6px;
+}
+
+.weekly__size {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -4px;
+}
+
+.weekly__size-li {
+padding: 0 4px;
+}
+
+.weekly__size-text {
+font-size: 24px;
+border: 1px solid #007D8B;
+border-radius: 50%;
+color: #007D8B;
+display: flex;
+width: 44px;
+height: 44px;
+justify-content: center;
+align-items: center;
+}
+
+.weekly__size-text--mod {
   color: white;
-  padding: 15px;
-  justify-content: center;
-  align-items: flex-end;
+  background-color: #007D8B;
+}
+
+.weekly__heart {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -6px;
+}
+
+.weekly__heart-li {
+padding: 0 6px;
+display: flex;
+align-items: flex-end;
+}
+
+.heart-empty {
+  fill: none;
+  stroke: #BEBEBE;
+}
+
+.weekly__buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+/* .icon {
+  width: 1em;
+  height: 1em;
 } */
