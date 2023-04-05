@@ -466,7 +466,7 @@ a {
   color: #007D8B;
   font-size: 36px;
   font-weight: 700;
-  margin: 46px 0;
+  margin: 25px 0;
 }
 
 .weekly__description-info {
@@ -544,6 +544,57 @@ align-items: flex-end;
 .weekly__buttons {
   display: flex;
   flex-direction: row;
+  margin-bottom: 14px;
+}
+
+.weekly__buttons2 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 26px;
+}
+
+.weekly__plusminus {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #007D8B;
+  border-radius: 30px;
+  width: 143px;
+  padding: 5px 8px;
+  margin-right: 25px;
+}
+
+.weekly__minus {
+  margin-right: 20px;
+}
+
+.weekly__plus {
+  margin-left: 20px;
+}
+
+.weekly__plusminus-text {
+  font-size: 22px;
+}
+
+.weekly__shoe-perspective {
+  display: flex;
+  margin: 0 -16px;
+  margin-bottom: 15px;
+}
+
+.weekly__shoe-perspective-li {
+  padding: 0 16px;
+}
+
+.weekly__shoe-perspective-photo {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-size: cover;
+  text-decoration: none;
+  width: 141px;
+  height: 143px;
 }
 
 /* .icon {
