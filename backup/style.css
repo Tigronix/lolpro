@@ -450,110 +450,79 @@ a {
   font-size: 39px;
 }
 
-.weekly__description {
-  display: flex;
-  flex-direction: column;
-  padding-left: 46px;
-  flex: 1;
-}
-
-.weekly__description-text {
-  font-size: 36px;
-  font-weight: 700;
-}
-
-.weekly__description-price {
-  color: #007D8B;
-  font-size: 36px;
-  font-weight: 700;
-  margin: 25px 0;
-}
-
-.weekly__description-info {
+.weekly__widgets {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 26px;
+  margin-left: 50px;
 }
 
-.weekly__description-info-li {}
+.weekly__widgets-li {
 
-.weekly__description-info-text {
+}
+
+.weekly__widgets-text {
   font-weight: 700;
   font-size: 28px;
 }
 
-.weekly__btn {
-  font-size: 15px;
-  width: 296px;
-}
-
-.weekly__color-svg {
+.weekly__colour {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 -6px;
+  margin: -6px;
 }
 
-.weekly__color-li {
-  padding: 0 6px;
+.weekly__colour-li {
+  padding: 6px;
 }
 
 .weekly__size {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 -4px;
+  margin: -4px;
 }
 
 .weekly__size-li {
-padding: 0 4px;
+  padding: 4px;
 }
 
-.weekly__size-text {
-font-size: 24px;
-border: 1px solid #007D8B;
-border-radius: 50%;
-color: #007D8B;
-display: flex;
-width: 44px;
-height: 44px;
-justify-content: center;
-align-items: center;
+.weekly__size-digit {
+  font-size: 24px;
+  border: 1px solid #007D8B;
+  border-radius: 50%;
+  color: #007D8B;
+  display: flex;
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;  
 }
 
-.weekly__size-text--mod {
-  color: white;
+.weekly__size-digit--mod {
   background-color: #007D8B;
+  color: white;
 }
 
-.weekly__heart {
+.weekly__reviews {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 -6px;
+  margin: -7px;
 }
 
-.weekly__heart-li {
-padding: 0 6px;
-display: flex;
-align-items: flex-end;
+.weekly__reviews-li {
+  padding: 7px;
 }
+
+
+
+
+
 
 .heart-empty {
   fill: none;
   stroke: #BEBEBE;
 }
 
-.weekly__buttons {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 14px;
-}
-
-.weekly__buttons2 {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 26px;
-}
-
-.weekly__plusminus {
+/* .weekly__plusminus {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -563,19 +532,7 @@ align-items: flex-end;
   width: 143px;
   padding: 5px 8px;
   margin-right: 25px;
-}
-
-.weekly__minus {
-  margin-right: 20px;
-}
-
-.weekly__plus {
-  margin-left: 20px;
-}
-
-.weekly__plusminus-text {
-  font-size: 22px;
-}
+} */
 
 .weekly__shoe-perspective {
   display: flex;
@@ -595,6 +552,11 @@ align-items: flex-end;
   text-decoration: none;
   width: 141px;
   height: 143px;
+}
+
+.weekly__btn {
+  font-size: 15px;
+  width: 296px;
 }
 
 /* .icon {
