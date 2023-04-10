@@ -675,6 +675,44 @@ padding: 20px;
   font-size: 24px;
   color: white;
   text-decoration: none;
+  transition: color 0.3s;
+}
+
+.about-us__link:hover {
+  color: #a7e8e8;
+}
+
+.about-us__socials--hover {
+  transition: all 0.3s;
+}
+
+.about-us__socials:hover .about-us__socials--hover {
+  fill: #a7e8e8;
+}
+
+.about-us__privacy {
+  min-height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(270deg, rgba(255, 255, 255, 0) -48.09%, rgba(255, 255, 255, 0.6) 108.71%);
+}
+
+.about-us__privacy-link {
+  font-size: 24px;
+  font-weight: 400;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.about-us__privacy-link:hover {
+  color: #a7e8e8;
+}
+
+.about-us__privacy-li {
+  padding: 0 42px;
 }
 
 /* .icon {
