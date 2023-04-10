@@ -46,12 +46,10 @@
         <p class="mainpage__title"><span class="mainpage__text--accent">Man's</span> collection</p>
         <p class="mainpage__description">Find your true style with shoexpress and explore the variety of playful,
           colourful designs!</p>
-      </div>
-      <button class="button">
-        <span class="mainpage__shop-link-text">Shop Now</span>
-        <img src="img/Pointer.png" alt="Pointer" class="mainpage__shop-pointer">
-      </button>
-    </div>
+        <button class="button">
+          <span class="mainpage__shop-link-text">Shop Now</span>
+          <img src="img/Pointer.png" alt="Pointer" class="mainpage__shop-pointer">
+        </button>
   </section>
   <section class="sale">
     <div class="container">
@@ -118,27 +116,31 @@
           <span class="weekly__description-price">$390</span>
           <ul class="weekly__widgets">
             <li class="weekly__widgets-li">
-              <span class="weekly__widgets-text">Colour</span>
-              <ul class="weekly__colour">
-                <li class="weekly__colour-li">
-                  <button type="button">
-                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="44" height="44" fill="none">
-                      <path fill="black"
-                        d="M44 22c0 12.15-9.85 22-22 22S0 34.15 0 22 9.85 0 22 0s22 9.85 22 22ZM2.548 22c0 10.743 8.709 19.452 19.452 19.452 10.743 0 19.452-8.709 19.452-19.452 0-10.743-8.709-19.452-19.452-19.452C11.257 2.548 2.548 11.257 2.548 22Z" />
-                      <circle cx="22" cy="22" r="15.5" fill="black" />
-                    </svg>
-                  </button>
-                </li>
-                <li class="weekly__colour-li">
-                  <button type="button">
-                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="44" height="44" fill="none">
-                      <path fill="#F6835F"
-                        d="M44 22c0 12.15-9.85 22-22 22S0 34.15 0 22 9.85 0 22 0s22 9.85 22 22ZM2.548 22c0 10.743 8.709 19.452 19.452 19.452 10.743 0 19.452-8.709 19.452-19.452 0-10.743-8.709-19.452-19.452-19.452C11.257 2.548 2.548 11.257 2.548 22Z" />
-                      <circle cx="22" cy="22" r="15.5" fill="#F6835F" />
-                    </svg>
-                  </button>
-                </li>
-              </ul>
+              <div class="weekly__widgets-color-text-wrapper">
+                <span class="weekly__widgets-text">Colour</span>
+              </div>
+              <div class="weekly__colour-wrapper">
+                <ul class="weekly__colour">
+                  <li class="weekly__colour-li">
+                    <button type="button">
+                      <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="44" height="44" fill="none">
+                        <path fill="black"
+                          d="M44 22c0 12.15-9.85 22-22 22S0 34.15 0 22 9.85 0 22 0s22 9.85 22 22ZM2.548 22c0 10.743 8.709 19.452 19.452 19.452 10.743 0 19.452-8.709 19.452-19.452 0-10.743-8.709-19.452-19.452-19.452C11.257 2.548 2.548 11.257 2.548 22Z" />
+                        <circle cx="22" cy="22" r="15.5" fill="black" />
+                      </svg>
+                    </button>
+                  </li>
+                  <li class="weekly__colour-li">
+                    <button type="button">
+                      <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="44" height="44" fill="none">
+                        <path fill="#F6835F"
+                          d="M44 22c0 12.15-9.85 22-22 22S0 34.15 0 22 9.85 0 22 0s22 9.85 22 22ZM2.548 22c0 10.743 8.709 19.452 19.452 19.452 10.743 0 19.452-8.709 19.452-19.452 0-10.743-8.709-19.452-19.452-19.452C11.257 2.548 2.548 11.257 2.548 22Z" />
+                        <circle cx="22" cy="22" r="15.5" fill="#F6835F" />
+                      </svg>
+                    </button>
+                  </li>
+                </ul>
+              </div>
               <ul class="weekly__counter">
                 <li class="weekly__counter-li">
                   <button type="button" class="weekly__minus">
@@ -159,49 +161,35 @@
                   </button>
                 </li>
               </ul>
-              <!-- <div class="weekly__counter">
-              <div class="weekly__counter-minus">
-                <button type="button" class="weekly__minus">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" fill="none">
-                    <path fill="#007D8B" d="M24.398 16.083H4.306v-2.87h20.092v2.87Z" />
-                  </svg>
-                </button>
-              </div>
-              <div class="weekly__counter-number">0</div>
-              <div class="weekly__counter-plus">
-                <button type="button" class="weekly__plus">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="29" fill="none">
-                    <path fill="#007D8B"
-                      d="M13.685 24.695v-8.611h-8.61v-2.87h8.61V4.601h2.87v8.611h8.612v2.87h-8.612v8.612h-2.87Z" />
-                  </svg>
-                </button>
-              </div>
-            </div> -->
             </li>
             <li class="weekly__widgets-li">
-              <span class="weekly__widgets-text">Size</span>
-              <ul class="weekly__size">
-                <li class="weekly__size-li">
-                  <button type="button">
-                    <span class="weekly__size-digit weekly__size-digit--mod">41</span>
-                  </button>
-                </li>
-                <li class="weekly__size-li">
-                  <button type="button">
-                    <span class="weekly__size-digit">42</span>
-                  </button>
-                </li>
-                <li class="weekly__size-li">
-                  <button type="button">
-                    <span class="weekly__size-digit">43</span>
-                  </button>
-                </li>
-                <li class="weekly__size-li">
-                  <button type="button">
-                    <span class="weekly__size-digit">44</span>
-                  </button>
-                </li>
-              </ul>
+              <div class="weekly__widgets-size-text-wrapper">
+                <span class="weekly__widgets-text">Size</span>
+              </div>
+              <div class="weekly__size-wrapper">
+                <ul class="weekly__size">
+                  <li class="weekly__size-li">
+                    <button type="button">
+                      <span class="weekly__size-digit weekly__size-digit--mod">41</span>
+                    </button>
+                  </li>
+                  <li class="weekly__size-li">
+                    <button type="button">
+                      <span class="weekly__size-digit">42</span>
+                    </button>
+                  </li>
+                  <li class="weekly__size-li">
+                    <button type="button">
+                      <span class="weekly__size-digit">43</span>
+                    </button>
+                  </li>
+                  <li class="weekly__size-li">
+                    <button type="button">
+                      <span class="weekly__size-digit">44</span>
+                    </button>
+                  </li>
+                </ul>
+              </div>
               <button type="button" class="weekly__favorite">
                 <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="none">
                   <circle cx="22.5" cy="22.5" r="21.989" stroke="#007D8B" stroke-width="1.023" />
@@ -211,7 +199,9 @@
               </button>
             </li>
             <li class="weekly__widgets-li">
-              <span class="weekly__widgets-text">Reviews</span>
+              <div class="weekly__widgets-reviews-text-wrapper">
+                <span class="weekly__widgets-text">Reviews</span>
+              </div>
               <ul class="weekly__reviews">
                 <li class="weekly__reviews-li">
                   <button type="button">
@@ -277,6 +267,123 @@
           </button>
         </div>
   </section>
+  <section class="subscription">
+    <div class="container">
+      <div class="subscription__header">
+        <h1 class="subscription__header-text">become a member and get 20% off</h1>
+      </div>
+      <div class="subscription__button">
+        <button class="button button__sub">
+          <span class="subscription__button-text">Sign up for free now</span>
+          <img src="img/Pointer-subscription.png" alt="Pointer" class="subscription__pointer">
+        </button>
+      </div>
+    </div>
+  </section>
+  <footer class="about-us">
+    <div class="container">
+      <div class="about-us__menu-wrapper">
+        <ul class="about-us__menu">
+          <li class="about-us__menu-li">
+            <ul class="about-us__header">
+              <span class="about-us__header-text">Products</span>
+              <li class="about-us-li">
+                <a href="#" class="about-us__link">Shoes</a>
+              </li>
+            </ul>
+          </li>
+          <li class="about-us__menu-li">
+            <ul class="about-us__header">
+              <span class="about-us__header-text">Category</span>
+              <li class="about-us-li">
+                <a href="#" class="about-us__link">Men</a>
+              </li>
+              <li class="about-us-li">
+                <a href="#" class="about-us__link">New In</a>
+              </li>
+              <li class="about-us-li">
+                <a href="#" class="about-us__link">Weekly Pick</a>
+              </li>
+            </ul>
+          </li>
+          <li class="about-us__menu-li">
+            <ul class="about-us__header">
+              <span class="about-us__header-text">Company Info</span>
+              <li class="about-us-li">
+                <a href="#" class="about-us__link">About us</a>
+              </li>
+              <li class="about-us-li">
+                <a href="#" class="about-us__link">Contact us</a>
+              </li>
+              <li class="about-us-li">
+                <a href="#" class="about-us__link">Payment Options</a>
+              </li>
+              <li class="about-us-li">
+                <a href="#" class="about-us__link">Track Order</a>
+              </li>
+              <li class="about-us-li">
+                <a href="#" class="about-us__link">Support</a>
+              </li>
+              <li class="about-us-li">
+                <a href="#" class="about-us__link">Vouchers</a>
+              </li>
+              <li class="about-us-li">
+                <a href="#" class="about-us__link">Size Charts</a>
+              </li>
+            </ul>
+          </li>
+          <li class="about-us__menu-li">
+            <ul class="about-us__header">
+              <span class="about-us__header-text">Follow us</span>
+              <li class="about-us-li">
+                <a href="#" class="about-us__socials">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none">
+                    <path fill="#F8F8F8"
+                      d="M23.93 0c6.503 0 7.314.024 9.865.144 2.548.12 4.283.519 5.81 1.112 1.58.608 2.91 1.431 4.24 2.76a11.745 11.745 0 0 1 2.76 4.24c.591 1.524.993 3.262 1.113 5.81.112 2.551.143 3.363.143 9.865 0 6.502-.024 7.313-.143 9.864-.12 2.548-.522 4.283-1.113 5.81a11.684 11.684 0 0 1-2.76 4.24 11.762 11.762 0 0 1-4.24 2.76c-1.524.591-3.261.993-5.81 1.113-2.551.112-3.362.143-9.864.143-6.502 0-7.314-.024-9.865-.143-2.548-.12-4.283-.522-5.81-1.113a11.702 11.702 0 0 1-4.24-2.76 11.736 11.736 0 0 1-2.76-4.24c-.593-1.524-.993-3.261-1.112-5.81C.03 31.244 0 30.433 0 23.93c0-6.502.024-7.314.144-9.865.12-2.55.519-4.283 1.112-5.81a11.678 11.678 0 0 1 2.76-4.24 11.719 11.719 0 0 1 4.24-2.76c1.527-.593 3.26-.993 5.81-1.112C16.617.03 17.43 0 23.931 0Zm0 11.965a11.965 11.965 0 1 0 0 23.93 11.965 11.965 0 0 0 0-23.93Zm15.556-.598a2.991 2.991 0 1 0-5.983 0 2.991 2.991 0 0 0 5.983 0ZM23.93 16.751a7.18 7.18 0 1 1 0 14.359 7.18 7.18 0 0 1 0-14.359Z" />
+                  </svg>
+                </a>
+              </li>
+              <li class="about-us-li">
+                <a href="#" class="about-us__socials">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none">
+                    <path fill="#F8F8F8"
+                      d="M47.861 24.18c0-13.21-10.72-23.931-23.93-23.931C10.72.249 0 10.969 0 24.179c0 11.583 8.232 21.227 19.145 23.453V31.359h-4.787v-7.18h4.787v-5.982c0-4.619 3.757-8.376 8.375-8.376h5.983v7.18h-4.786a2.4 2.4 0 0 0-2.393 2.392v4.787h7.179v7.179h-7.18V47.99C38.41 46.794 47.862 36.6 47.862 24.18Z" />
+                  </svg>
+                </a>
+              </li>
+              <li class="about-us-li">
+                <a href="#" class="about-us__socials">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="48" height="34" fill="none">
+                    <path fill="#F8F8F8"
+                      d="m19.145 24.428 12.42-7.18-12.42-7.179v14.359ZM46.808 5.69c.311 1.125.527 2.632.67 4.547.168 1.914.24 3.566.24 5.001l.143 2.01c0 5.241-.383 9.094-1.053 11.559-.598 2.154-1.986 3.542-4.14 4.14-1.124.311-3.182.526-6.341.67-3.111.168-5.959.24-8.591.24L23.93 34c-10.027 0-16.273-.383-18.738-1.053-2.154-.598-3.542-1.986-4.14-4.14-.311-1.125-.527-2.632-.67-4.547a57.58 57.58 0 0 1-.24-5.001L0 17.249C0 12.008.383 8.155 1.053 5.69c.598-2.154 1.986-3.542 4.14-4.14 1.125-.311 3.183-.526 6.342-.67 3.11-.168 5.958-.24 8.59-.24l3.806-.143c10.027 0 16.272.383 18.737 1.053 2.154.598 3.542 1.986 4.14 4.14Z" />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="about-us__privacy-settings">
+        <ul class="about-us__privacy">
+          <li class="about-us__privacy-li">
+            <a href="#" class="about-us__privacy-link">Data settings</a>
+          </li>
+          <li class="about-us__privacy-li">
+            <a href="#" class="about-us__privacy-link">Cookie settings</a>
+          </li>
+          <li class="about-us__privacy-li">
+            <a href="#" class="about-us__privacy-link">Privacy Policy</a>
+          </li>
+          <li class="about-us__privacy-li">
+            <a href="#" class="about-us__privacy-link">Terms And Conditions</a>
+          </li>
+          <li class="about-us__privacy-li">
+            <a href="#" class="about-us__privacy-link">Imprint</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
 </body>
 <script src="js/script.js"></script>
 
