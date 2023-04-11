@@ -459,6 +459,7 @@ a {
 
 .weekly__widgets-li {
 padding: 20px;
+/* flex: 1; */
 }
 
 .weekly__widgets-text {
@@ -474,6 +475,7 @@ padding: 20px;
 
 .weekly__colour-li {
   padding: 6px;
+  margin-bottom: -9px;
 }
 
 .weekly__size {
@@ -520,8 +522,9 @@ padding: 20px;
   justify-content: center;
   border: 1px solid #007D8B;
   border-radius: 30px;
-  width: 142px;
+  padding: 5px 0;
   margin: 0 -7px;
+  width: 142px;
 }
 
 .weekly__counter-li {
@@ -649,25 +652,34 @@ padding: 20px;
 
 .about-us {
   background-color: #f6835f;
+  padding-top: 98px;
 }
 
 .about-us__menu {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  padding-top: 166px;
-  padding-bottom: 180px;
+  padding-top: 76px;
+  padding-bottom: 106px;
   border-top: 3px solid white;
+  margin: 0 -78px;
+}
+
+.about-us__menu-li {
+  padding: 0 78px;
 }
 
 .about-us-li {
-  padding: 25px 0;
+  padding: 23px 0;
 }
 
 .about-us__header-text {
   font-weight: 700;
   font-size: 36px;
   color: white;
+}
+
+.about-us__header-text-wrapper {
+  margin-bottom: 8px;
 }
 
 .about-us__link {
@@ -691,7 +703,7 @@ padding: 20px;
 }
 
 .about-us__privacy {
-  min-height: 100px;
+  min-height: 85px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -712,10 +724,18 @@ padding: 20px;
 }
 
 .about-us__privacy-li {
-  padding: 0 42px;
+  padding: 0 21px;
 }
 
-/* .icon {
+.weekly__reviews-button {
+font-size: 26px;
+}
+
+.weekly__colour-button {
+  font-size: 44px;
+}
+
+.icon {
   width: 1em;
   height: 1em;
-} */
+}
