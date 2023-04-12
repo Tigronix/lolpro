@@ -105,8 +105,8 @@ input[placeholder] {
 }
 
 .container {
-  width: 1270px;
-  max-width: 1270px;
+  width: 1360px;
+  max-width: 1360px;
   height: 100%;
   margin: 0 auto;
   padding: 0 32px;
@@ -458,8 +458,8 @@ a {
 }
 
 .weekly__widgets-li {
-padding: 20px;
-/* flex: 1; */
+  padding: 20px;
+  flex: 1;
 }
 
 .weekly__widgets-text {
@@ -497,7 +497,7 @@ padding: 20px;
   width: 44px;
   height: 44px;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
 }
 
 .weekly__size-digit--mod {
@@ -728,7 +728,7 @@ padding: 20px;
 }
 
 .weekly__reviews-button {
-font-size: 26px;
+  font-size: 26px;
 }
 
 .weekly__colour-button {
