@@ -19,7 +19,8 @@
 
 @font-face {
   font-family: 'YuGothic';
-  src: url('../fonts/YuGothic.woff2') url('../fonts/YuGothic.woff') format('woff');
+  src: url('../fonts/YuGothic.woff2'),
+   url('../fonts/YuGothic.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -454,7 +455,6 @@ a {
   display: flex;
   flex-direction: row;
   margin: -20px;
-  margin-bottom: 0px;
 }
 
 .weekly__widgets-li {
@@ -532,9 +532,6 @@ a {
 }
 
 .weekly__description {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
   padding-left: 46px;
   flex: 1;
 }
@@ -566,7 +563,7 @@ a {
 }
 
 .weekly__shoe-perspective-wrapper {
-  margin-bottom: 15px;
+  margin-bottom: 18px;
 }
 
 .weekly__shoe-perspective-photo {
