@@ -429,11 +429,11 @@ a {
   text-align: center;
   color: white;
   width: 270px;
-  transition: font-size 0.4s;
+  transition: transform .4s;
 }
 
 .product-card:hover .product-card-text {
-  font-size: 39px;
+  transform: scale3d(1.1, 1.1, 1.1);
 }
 
 .popular__new-li {
