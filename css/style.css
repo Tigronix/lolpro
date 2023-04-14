@@ -106,7 +106,7 @@ input[placeholder] {
 }
 
 .container {
-  width: 1360px;
+  width: 100%;
   max-width: 1360px;
   height: 100%;
   margin: 0 auto;
@@ -771,4 +771,22 @@ a {
 .icon {
   width: 1em;
   height: 1em;
+}
+
+@media screen and (max-width: 1400px) {
+  .product-card {
+    width: 557px;
+    height: 490px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .product-card {
+    width: 457px;
+    height: 410px;
+  }
+
+  .product-card__text {
+    font-size: 31px;
+  }
 }
