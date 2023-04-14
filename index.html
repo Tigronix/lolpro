@@ -141,26 +141,28 @@
                   </li>
                 </ul>
               </div>
-              <ul class="weekly__counter">
-                <li class="weekly__counter-li">
-                  <button type="button" class="weekly__minus">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" fill="none">
-                      <path fill="#007D8B" d="M24.398 16.083H4.306v-2.87h20.092v2.87Z" />
-                    </svg>
-                  </button>
-                </li>
-                <li class="weekly__counter-li">
-                  <span class="weekly__counter-text">0</span>
-                </li>
-                <li class="weekly__counter-li">
-                  <button type="button" class="weekly__plus">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="29" fill="none">
-                      <path fill="#007D8B"
-                        d="M13.685 24.695v-8.611h-8.61v-2.87h8.61V4.601h2.87v8.611h8.612v2.87h-8.612v8.612h-2.87Z" />
-                    </svg>
-                  </button>
-                </li>
-              </ul>
+              <div class="weekly__counter-wrapper">
+                <ul class="weekly__counter">
+                  <li class="weekly__counter-li">
+                    <button type="button" class="weekly__minus">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" fill="none">
+                        <path fill="#007D8B" d="M24.398 16.083H4.306v-2.87h20.092v2.87Z" />
+                      </svg>
+                    </button>
+                  </li>
+                  <li class="weekly__counter-li">
+                    <span class="weekly__counter-text">0</span>
+                  </li>
+                  <li class="weekly__counter-li">
+                    <button type="button" class="weekly__plus">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="29" fill="none">
+                        <path fill="#007D8B"
+                          d="M13.685 24.695v-8.611h-8.61v-2.87h8.61V4.601h2.87v8.611h8.612v2.87h-8.612v8.612h-2.87Z" />
+                      </svg>
+                    </button>
+                  </li>
+                </ul>
+              </div>
             </li>
             <li class="weekly__widgets-li">
               <div class="weekly__widgets-size-text-wrapper">
@@ -285,20 +287,20 @@
       <div class="about-us__menu-wrapper">
         <ul class="about-us__menu">
           <li class="about-us__menu-li">
-            <ul class="about-us__header">
-              <div class="about-us__header-text-wrapper">
+            <div class="about-us__header-text-wrapper">
               <span class="about-us__header-text">Products</span>
-              </div>
+            </div>
+            <ul class="about-us__header">
               <li class="about-us-li">
                 <a href="#" class="about-us__link">Shoes</a>
               </li>
             </ul>
           </li>
           <li class="about-us__menu-li">
-            <ul class="about-us__header">
-              <div class="about-us__header-text-wrapper">
+            <div class="about-us__header-text-wrapper">
               <span class="about-us__header-text">Category</span>
-              </div>
+            </div>
+            <ul class="about-us__header">
               <li class="about-us-li">
                 <a href="#" class="about-us__link">Men</a>
               </li>
@@ -311,10 +313,10 @@
             </ul>
           </li>
           <li class="about-us__menu-li">
-            <ul class="about-us__header">
-              <div class="about-us__header-text-wrapper">
+            <div class="about-us__header-text-wrapper">
               <span class="about-us__header-text">Company Info</span>
-              </div>
+            </div>
+            <ul class="about-us__header">
               <li class="about-us-li">
                 <a href="#" class="about-us__link">About us</a>
               </li>
@@ -339,11 +341,11 @@
             </ul>
           </li>
           <li class="about-us__menu-li">
-            <ul class="about-us__header">
-              <div class="about-us__header-text-wrapper">
+            <div class="about-us__header-text-wrapper-svg">
               <span class="about-us__header-text">Follow us</span>
-              </div>
-              <li class="about-us-li">
+            </div>
+            <ul class="about-us__header-svg">
+              <li class="about-us-li-svg">
                 <a href="#" class="about-us__socials">
                   <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none">
                     <path class="about-us__socials--hover" fill="#F8F8F8"
@@ -351,7 +353,7 @@
                   </svg>
                 </a>
               </li>
-              <li class="about-us-li">
+              <li class="about-us-li-svg">
                 <a href="#" class="about-us__socials">
                   <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none">
                     <path class="about-us__socials--hover" fill="#F8F8F8"
@@ -359,7 +361,7 @@
                   </svg>
                 </a>
               </li>
-              <li class="about-us-li">
+              <li class="about-us-li-svg">
                 <a href="#" class="about-us__socials">
                   <svg xmlns="http://www.w3.org/2000/svg" width="48" height="34" fill="none">
                     <path class="about-us__socials--hover" fill="#F8F8F8"
@@ -372,27 +374,27 @@
         </ul>
       </div>
     </div>
-      <div>
-        <div class="container">
-          <ul class="about-us__privacy">
-            <li class="about-us__privacy-li">
-              <a href="#" class="about-us__privacy-link">Data settings</a>
-            </li>
-            <li class="about-us__privacy-li">
-              <a href="#" class="about-us__privacy-link">Cookie settings</a>
-            </li>
-            <li class="about-us__privacy-li">
-              <a href="#" class="about-us__privacy-link">Privacy Policy</a>
-            </li>
-            <li class="about-us__privacy-li">
-              <a href="#" class="about-us__privacy-link">Terms And Conditions</a>
-            </li>
-            <li class="about-us__privacy-li">
-              <a href="#" class="about-us__privacy-link">Imprint</a>
-            </li>
-          </ul>
-        </div>
+    <div class="about-us__privacy-wrapper">
+      <div class="container">
+        <ul class="about-us__privacy">
+          <li class="about-us__privacy-li">
+            <a href="#" class="about-us__privacy-link">Data settings</a>
+          </li>
+          <li class="about-us__privacy-li">
+            <a href="#" class="about-us__privacy-link">Cookie settings</a>
+          </li>
+          <li class="about-us__privacy-li">
+            <a href="#" class="about-us__privacy-link">Privacy Policy</a>
+          </li>
+          <li class="about-us__privacy-li">
+            <a href="#" class="about-us__privacy-link">Terms And Conditions</a>
+          </li>
+          <li class="about-us__privacy-li">
+            <a href="#" class="about-us__privacy-link">Imprint</a>
+          </li>
+        </ul>
       </div>
+    </div>
   </footer>
 </body>
 <script src="js/script.js"></script>

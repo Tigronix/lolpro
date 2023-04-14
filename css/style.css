@@ -20,7 +20,7 @@
 @font-face {
   font-family: 'YuGothic';
   src: url('../fonts/YuGothic.woff2'),
-   url('../fonts/YuGothic.woff') format('woff');
+    url('../fonts/YuGothic.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -453,7 +453,7 @@ a {
 
 .weekly__widgets {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   margin: -20px;
 }
 
@@ -520,11 +520,15 @@ a {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  border: 1px solid #007D8B;
-  border-radius: 30px;
   padding: 5px 0;
   margin: 0 -7px;
-  width: 142px;
+  width: 144px;
+}
+
+.weekly__counter-wrapper {
+  border: 1px solid #007D8B;
+  border-radius: 30px;
+  display: inline-block;
 }
 
 .weekly__counter-li {
@@ -603,12 +607,12 @@ a {
 
 .subscription {
   background-color: #007D8B;
+  padding: 200px 0;
 }
 
 .subscription__header {
   display: flex;
   justify-content: center;
-  padding-top: 215px;
   margin-bottom: 42px;
 }
 
@@ -622,7 +626,6 @@ a {
 .subscription__button {
   display: flex;
   justify-content: center;
-  padding-bottom: 174px;
 }
 
 .subscription__button-text {
@@ -658,15 +661,31 @@ a {
   padding-top: 76px;
   padding-bottom: 106px;
   border-top: 3px solid white;
-  margin: 0 -78px;
+  margin: -20px -78px;
 }
 
 .about-us__menu-li {
-  padding: 0 78px;
+  padding: 20px 78px;
+}
+
+.about-us__header {
+  margin: -23px;
 }
 
 .about-us-li {
-  padding: 23px 0;
+  padding: 23px;
+}
+
+.about-us__header-svg {
+  margin: -12.5px;
+}
+
+.about-us-li-svg {
+  padding: 12.5px;
+}
+
+.about-us__header-text-wrapper-svg {
+  margin-bottom: 29px;
 }
 
 .about-us__header-text {
@@ -676,7 +695,7 @@ a {
 }
 
 .about-us__header-text-wrapper {
-  margin-bottom: 8px;
+  margin-bottom: 38px;
 }
 
 .about-us__link {
@@ -691,6 +710,10 @@ a {
   color: #a7e8e8;
 }
 
+.about-us__socials {
+  display: block;
+}
+
 .about-us__socials--hover {
   transition: all 0.3s;
 }
@@ -699,13 +722,17 @@ a {
   fill: #a7e8e8;
 }
 
+.about-us__privacy-wrapper {
+  padding: 30.5px 0;
+  background: linear-gradient(270deg, rgba(255, 255, 255, 0) -48.09%, rgba(255, 255, 255, 0.6) 108.71%);
+}
+
 .about-us__privacy {
-  min-height: 85px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(270deg, rgba(255, 255, 255, 0) -48.09%, rgba(255, 255, 255, 0.6) 108.71%);
+  margin: -10px -21px;
 }
 
 .about-us__privacy-link {
@@ -721,7 +748,7 @@ a {
 }
 
 .about-us__privacy-li {
-  padding: 0 21px;
+  padding: 10px 21px;
 }
 
 .weekly__reviews-button {
