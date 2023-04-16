@@ -117,12 +117,6 @@ a {
   font-family: 'YuGothic';
 }
 
-@media screen and (max-width: 1220px) {
-  .container {
-    width: 100%;
-  }
-}
-
 .menu {
   font-weight: 500;
   font-size: 20px;
@@ -329,15 +323,18 @@ a {
   background: #86868999;
   border-radius: 30px;
   display: flex;
-  font-size: 24px;
   color: white;
   padding: 15px;
   align-items: center;
   transition: background-color 0.5s;
+  width: 200px;
+  justify-content: center;
 }
 
 .sale__shop-button {
   padding-top: 617px;
+  font-weight: 700;
+  font-size: 24px;
 }
 
 .button--light-grey:hover {
@@ -349,10 +346,6 @@ a {
 }
 
 .popular__header {
-  height: 100%;
-}
-
-.popular__header-text {
   display: flex;
   justify-content: center;
   margin-bottom: 70px;
@@ -665,12 +658,15 @@ a {
   padding-top: 98px;
 }
 
-.footer__menu {
-  display: flex;
-  flex-wrap: wrap;
+.footer__menu-wrapper {
   padding-top: 76px;
   padding-bottom: 106px;
   border-top: 3px solid white;
+}
+
+.footer__menu {
+  display: flex;
+  flex-wrap: wrap;
   margin: -20px -78px;
 }
 
@@ -721,7 +717,7 @@ a {
 }
 
 .footer__socials {
-  display: block;
+  display: inline-block;
   font-size: 47px;
   color: #F8F8F8;
   transition: color 0.3s;
@@ -778,6 +774,39 @@ a {
     width: 557px;
     height: 490px;
   }
+
+ .weekly__headline {
+  margin-bottom: 70px;
+  font-size: 42px;
+ }
+
+ .popular {
+  margin-bottom: 90px;
+ }
+
+ .popular__title {
+  margin-bottom: 50px;
+ }
+
+ .popular__categories {
+  margin-bottom: 50px;
+ }
+ 
+ .sale__picture {
+  min-height: 740px;
+ }
+
+ .sale {
+  min-height: 740px;
+ }
+
+ .footer__menu {
+margin: -20px -65px;
+ }
+
+.footer__menu-li {
+  padding: 20px 65px;
+}
 }
 
 @media screen and (max-width: 1200px) {
@@ -789,4 +818,61 @@ a {
   .product-card__text {
     font-size: 31px;
   }
+
+  .mainpage__header {
+    font-size: 50px;
+  }
+
+  .mainpage__title {
+    font-size: 34px;
+  }
+
+  .mainpage {
+    background-size: 640px 800px;
+    min-height: 880px;
+  }
+  
+  .mainpage__text {
+    width: 400px;
+  }
+
+  .weekly__headline {
+    margin-bottom: 55px;
+  }
+
+  .popular {
+    margin-bottom: 70px;
+  }
+
+  .weekly__description {
+    padding-left: 36px;
+  }
+
+  .weekly__description {
+    padding-left: 25px;
+  }
+
+  .weekly__shoe-perspective-li {
+    padding: 6px;
+  }
+
+.weekly__shoe-perspective {
+  margin: -6px;
+}
+
+.weekly__description-price {
+  margin: 27px 0;
+}
+
+.footer__menu-li {
+  padding: 20px 34px;
+}
+
+.footer__menu {
+  margin: -20px -34px;
+}
+}
+
+@media screen and (max-width: 1200px) {
+
 }
